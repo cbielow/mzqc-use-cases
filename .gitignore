@@ -1,1 +1,3 @@
 .DS_Store
+# default output folder of GC-MS/reproduce.sh (raw data, mzML files, Python venv, results)
+GC-MS/reproduction/

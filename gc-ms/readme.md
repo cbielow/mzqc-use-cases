@@ -15,4 +15,7 @@ Steps to reproduce the paper results:
 6) install R 
 7) run the R script `plot_GC-MS.R` (any missing dependency packages are installed automatically) to produce the GC-MS QC plots as shown in the paper (Figure 5)
 
+Alternatively, `bash reproduce.sh [WORK_DIR]` runs all of these steps (with Python, ProteoWizard's `msconvert` and R already installed), writing everything to `WORK_DIR` (default: `reproduction/`).
+Since `msconvert` reads the Agilent `.D` raw files only on Windows, run it there, e.g. from Git Bash.
+
 
